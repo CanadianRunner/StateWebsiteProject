@@ -83,6 +83,11 @@ h3 {
   height: auto;
 }
 
+.Figure {
+  display: flex;
+  justify-content: center;
+}
+
 .oregon-body-text {
   padding: 20px; 
 }

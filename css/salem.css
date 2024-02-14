@@ -19,11 +19,17 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  flex-wrap: wrap;
+}
+
+.Salem-Logo {
+  width: 60%;
+  height: auto;
 }
 
 header a img {
-  max-height: 150px;
-  margin-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 nav {
@@ -73,25 +79,30 @@ nav ul li a:hover,
 }
 
 h1 {
-  float: left;
-  padding-left: 20px;
-  padding-top: 40px;
-  padding-right: 100px;
+  width: 100%;
+  text-align: center; 
+  margin: 10px 0;
+  padding: 0; 
+  order: -1;
+  transform: translateY(70px);
 }
 
 h3 {
   padding: 20px;
 }
 
-.Portland-Flag {
+.Salem-Flag {
+  display: block;
   width: 30%;
   height: auto;
-  padding-top: 100px;
+  margin: 100px auto 20px;
 }
 
 .Figure {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .oregon-body-text {
@@ -105,12 +116,20 @@ h3 {
 .Portland-Facts {
   padding: 20px;
 }
-
-.Portland-Seal {
-  width: 80%;
-  justify-content: center;
-  height: auto;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
   padding: 10px;
+}
+
+.grid-item {
+  background-color: #f0f0f0; 
+  text-align: center; 
+  padding: 20px 0; 
+  font-size: 16px; 
+  color: black;
 }
 
 footer {

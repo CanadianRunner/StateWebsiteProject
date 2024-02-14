@@ -3,9 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My HTML Page</title>
+  <title>State of Oregon</title>
+  <link rel="stylesheet" href="css/salem.css">
 </head>
 <body>
-  
+  <header>
+    <!-- In the header I've set the image target to index to act as a home button -->
+    <!-- Image credit: https://en.wikipedia.org/wiki/Salem,_Oregon#/media/File:Salem,_OR_Logo.png -->
+    <a href="index.html" target="index.html">
+      <img src="images/Salem-Logo.png" alt="Salem Logo"  class="Salem-Logo">
+    </a>
+    <div class="header-links">
+      <!-- Using an unorder list here, these links have not been fleshed out beyond naviagtion. -->
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="languages.html">Languages</a></li>
+      </ul>
+    </div>
+    <h1>Salem, Oregon</h1>
+  </header>
+  <!-- In the navbar I've added the three city web links you can navigate to.   -->
+  <nav>
+    <ul>
+      <li><a href="portland.html">Portland</a></li>
+      <li><a href="salem.html">Salem</a></li>
+      <li><a href="eugene.html">Eugene</a></li>
+    </ul>
+  </nav>
+  <!-- This is the salem pages main content -->
+  <main>
+    <h1>Welcome to the online portal for Salem Oregon!</h1>
+    <img src="images/Salem-Flag.png" alt="Salem City Flag"  class="Salem-Flag">
+    <!-- Flag image credit: https://en.wikipedia.org/wiki/Salem,_Oregon#/media/File:Flag_of_Salem,_Oregon_2022.svg -->
+    <br><br>
+    <p class="Figure">Figure 1</p>
+    <h3>About:</h3>
+    <!-- Quick facts and information about Salem found at: https://en.wikipedia.org/wiki/Salem,_Oregon -->
+    <p class="oregon-body-text" alt="quick facts found on https://en.wikipedia.org/wiki/Oregon">Salem is located just 47 miles south of Portland and is also in the North Western corner of the state.  The citizens of Salem experience cool and rainy winters and warm and dry summers. Explore the city of Salem by visiting the Capitol building and grounds.  Or catch the state fair and cherry festival, as Salem is nicknamed "Cherry City". Learn about the history of Salem and the resources available to you.</p>
+    <div class="Portland-Facts">
+      <p>Salem Quick Facts:</p>
+      <div class="grid-container">
+        <div class="grid-item">State Capital</div>
+        <div class="grid-item">3rd most populous city</div>
+        <div class="grid-item">Founded in 1842</div>
+        <div class="grid-item">433,353 Metro population</div>
+        <div class="grid-item">It's located in Marion County</div>
+        <div class="grid-item">It became the capital of Oregon in 1851</div>
+      </div>
+      
+    </div>
+   
+    <!-- Here you can find the aside for the salems homepage. -->
+    <p class="main-aside">In figure 1, the white, blue, and pink flag flies proudly at city hall and around town.</p>
+    <!-- These facts were sourced from https://en.wikipedia.org/wiki/Portland_metropolitan_area,_Oregon#:~:text=The%202022%20population%20estimate%20is,Area%2C%20and%20other%20surrounding%20areas and https://en.wikipedia.org/wiki/Portland,_Oregon -->
+    <br><br>
+    <footer>
+    <!-- These links have not been fleshed out beyond navigation. -->
+    <ul>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
