@@ -72,21 +72,30 @@ nav ul li a:hover,
   background-color: #ddd;
 }
 
-h1 {
-  float: left;
-  padding-left: 20px;
-  padding-top: 40px;
-  padding-right: 100px;
+/* Using position relative to center the text in the Welcome-Container class. */
+.Welcome-Container  {
+  position: relative;
+  text-align: center;
+  padding: 20px;
 }
 
+/* Using an elementor selector to adjust the padding of the h3 tag. */
 h3 {
   padding: 20px;
 }
 
+/* Using position absolute to center the Portland-Flag class. */
 .Portland-Flag {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   width: 30%;
   height: auto;
-  padding-top: 100px;
+  top: 450px;
+}
+
+.flag-spacer {
+  height: 500px; 
 }
 
 .Figure {

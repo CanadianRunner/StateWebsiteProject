@@ -80,9 +80,9 @@ nav ul li a:hover,
 
 h1 {
   width: 100%;
-  text-align: center; 
+  text-align: center;
   margin: 10px 0;
-  padding: 0; 
+  padding: 0;
   order: -1;
   transform: translateY(70px);
 }
@@ -113,10 +113,9 @@ h3 {
   padding: 20px;
 }
 
-.Portland-Facts {
+.Eugene-Facts {
   padding: 20px;
 }
-
 
 footer {
   background-color: var(--navbar-bg-color);

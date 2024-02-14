@@ -80,9 +80,9 @@ nav ul li a:hover,
 
 h1 {
   width: 100%;
-  text-align: center; 
+  text-align: center;
   margin: 10px 0;
-  padding: 0; 
+  padding: 0;
   order: -1;
   transform: translateY(70px);
 }
@@ -125,10 +125,10 @@ h3 {
 }
 
 .grid-item {
-  background-color: #f0f0f0; 
-  text-align: center; 
-  padding: 20px 0; 
-  font-size: 16px; 
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
   color: black;
 }
 
