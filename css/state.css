@@ -22,7 +22,7 @@ header {
 }
 
 header a img {
-  max-height: 80px; 
+  max-height: 150px; 
   margin-right: 20px; 
 }
 
@@ -67,8 +67,13 @@ nav ul li a:hover, .header-links ul li a:hover {
 }
 
 h1 {
+  float: left;
   padding-left: 20px;
   padding-top: 100px;
+}
+
+h3 {
+  padding: 20px;
 }
 
 .oregon-panoramic {
@@ -78,6 +83,9 @@ h1 {
 
 .oregon-body-text {
   padding: 20px; 
+}
+.main-aside {
+  padding: 20px;
 }
 
 footer {
