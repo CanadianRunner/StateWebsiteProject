@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const confirmEmail = document.getElementById('confirmEmail').value;
     
     if (enteredEmail !== confirmEmail) {
-      alert("Email addresses must match.");
+      alert("Email addresses must match please double check and try again.");
       event.preventDefault();
     } else {
       alert("Form submitted we'll respond within 1-3 business days.");
