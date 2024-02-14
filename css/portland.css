@@ -1,40 +1,41 @@
 :root {
-  --header-bg-color: #9da1aa; /* Header background color */
-  --body-bg-color: #293133; /* Body background color */
-  --navbar-bg-color: #a4ba97; /* Navbar background color */
-  --text-on-body-color: #f1f6ef; /* Text color on body */
+  --header-bg-color: #96bdc4; /* Header background color */
+  --body-bg-color: #4e7d9a; /* Body background color */
+  --navbar-bg-color: #bfd3c1; /* Navbar background color */
+  --text-on-body-color: #d2e8e6; /* Text color on body */
 }
 
 body {
   background-color: var(--body-bg-color);
   color: var(--text-on-body-color);
-  margin: 0; 
-  font-family: Arial, sans-serif; 
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 header {
   background-color: var(--header-bg-color);
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding: 20px;
 }
 
 header a img {
-  max-height: 150px; 
-  margin-right: 20px; 
+  max-height: 150px;
+  margin-right: 20px;
 }
 
 nav {
   width: 100%;
   background-color: var(--navbar-bg-color);
   padding: 10px 0;
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-nav ul, .header-links ul {
+nav ul,
+.header-links ul {
   list-style-type: none;
   display: flex;
   padding: 0;
@@ -43,58 +44,69 @@ nav ul, .header-links ul {
 }
 
 nav ul {
-  justify-content: center; 
-  flex-grow: 1; 
+  justify-content: center;
+  flex-grow: 1;
 }
 
-/* Using class selector */
 .header-links {
   display: flex;
   align-items: center;
 }
 
-.header-links ul li, nav ul li {
-  padding: 0 10px; 
+.header-links ul li,
+nav ul li {
+  padding: 0 10px;
 }
 
-nav ul li a, .header-links ul li a {
+nav ul li a,
+.header-links ul li a {
   color: var(--text-on-body-color);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-decoration: none;
-  padding: 8px 16px; 
+  padding: 8px 16px;
 }
 
-nav ul li a:hover, .header-links ul li a:hover {
+nav ul li a:hover,
+.header-links ul li a:hover {
   background-color: #ddd;
 }
 
-/* Using float property */
 h1 {
   float: left;
   padding-left: 20px;
-  padding-top: 100px;
+  padding-top: 40px;
+  padding-right: 100px;
 }
 
 h3 {
   padding: 20px;
 }
-/* Using id selector */
-#oregon-panoramic {
-  width: 100%; 
+
+.Portland-Flag {
+  width: 30%;
   height: auto;
+  padding-top: 100px;
+}
+
+.Figure {
+  display: flex;
+  justify-content: center;
 }
 
 .oregon-body-text {
-  padding: 20px; 
+  padding: 20px;
 }
+
 .main-aside {
   padding: 20px;
 }
 
-.Oregon-Facts {
+.Portland-Facts {
   padding: 20px;
 }
 
-.Oregon-Seal {
+.Portland-Seal {
   width: 10%;
   justify-content: center;
   height: auto;
@@ -112,15 +124,17 @@ footer ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 footer ul li {
-  padding: 0 15px; 
+  padding: 0 15px;
 }
 
 footer ul li a {
   color: var(--text-on-body-color);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-decoration: none;
 }
 
