@@ -1,5 +1,5 @@
 # StateWebsiteProject
-This is an MVP website created to provided specifications for my college coursework.
+This is an MVP website built to provided specifications for my college coursework.
 I was not allowed to use frameworks.
 
 ### Project URL: http://seank-wgu.byethost18.com/?i=1
