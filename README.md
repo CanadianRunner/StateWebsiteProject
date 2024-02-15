@@ -58,12 +58,17 @@ References for images and information in this project are available directly in 
 * https://en.wikipedia.org/wiki/Salem,_Oregon#/media/File:Flag_of_Salem,_Oregon_2022.svg
 
 ## Facts Referenced
+
 * https://en.wikipedia.org/wiki/Eugene,_Oregon
 * https://en.wikipedia.org/wiki/Oregon
 * https://en.wikipedia.org/wiki/Portland,_Oregon
 * https://en.wikipedia.org/wiki/Portland_metropolitan_area,_Oregon#:~:text=The%202022%20population%20estimate%20is,Area%2C%20and%20other%20surrounding%20areas and https://en.wikipedia.org/wiki/Portland,_Oregon
 * https://en.wikipedia.org/wiki/Salem,_Oregon
 
+## Colour Palettes Utilized
+
+* epco1968. (2024). BC01 Color Palette. Color Hex. https://www.color-hex.com/color-palette/1040967
+* itsjustme_0608. (2024). Ocean-Inspired Color Palette. Color Hex. https://www.color-hex.com/color-palette/1040991
 *This is licensed under the MIT license*
 
 Copyright (c) 02-14-2022 **_Sean Keane_**
