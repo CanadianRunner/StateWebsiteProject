@@ -141,8 +141,8 @@ h3 {
 .contact-form button {
   cursor: pointer;
   padding: 20px;
-  background-color: var(--navbar-bg-color);;
-  color: var(--text-on-body-color);;
+  background-color: var(--navbar-bg-color);
+  color: var(--text-on-body-color);
   border: rounded;
 }
 

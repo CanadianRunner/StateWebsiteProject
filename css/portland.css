@@ -73,7 +73,7 @@ nav ul li a:hover,
 }
 
 /* Using position relative to center the text in the Welcome-Container class. */
-.Welcome-Container  {
+.Welcome-Container {
   position: relative;
   text-align: center;
   padding: 20px;
@@ -95,7 +95,7 @@ h3 {
 }
 
 .flag-spacer {
-  height: 500px; 
+  height: 500px;
 }
 
 .Figure {

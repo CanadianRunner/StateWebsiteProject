@@ -1,5 +1,5 @@
 # StateWebsiteProject
-This is an MVP website created to provide specifications for my college coursework.
+This is an MVP website created to provided specifications for my college coursework.
 I was not allowed to use frameworks.
 
 ### Project URL: http://seank-wgu.byethost18.com/?i=1
@@ -26,7 +26,7 @@ _This is a project I created for my B.S. in Software Engineering that mimics an 
 1) Clone this repository to your desktop.
 2) Navigate to the now installed directory and open in your editor of choice.
 3) Open the directory and `cd to Task2`.
-4 To run the Oregon state website enter: `npm run start`.
+4) To run the Oregon state website enter: `npm run start`.
 5) Open your browser of choice and use the url: http://localhost:1234/index.html
 
 ## For a visual representation of setup and a successfully built application, please consult the attached Gif.
@@ -45,7 +45,24 @@ https://github.com/CanadianRunner/StateWebsiteProject
 
 If you have any questions or concerns, feel free to contact me at code@sean-keane.com
 
-References for images and information in this project are available directly in the project files
+References for images and information in this project are available directly in the project files.
+
+## Image Referenced:
+
+* https://kval.com/resources/media2/16x9/full/1015/center/80/80a736fc-67e8-4864-b262-55f109144d10-large16x9_WEBSTOCK_CityofEugene988x555.png
+* https://eugene-or.gov/ImageRepository/Document?documentID=59369
+* https://en.m.wikipedia.org/wiki/File:Flag-map_of_Oregon.svg
+* https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSeal_of_Portland%2C_Oregon&psig=AOvVaw34Zx9b9UtwITmjY5fJnnb-&ust=1708042760293000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMjE2qGJrIQDFQAAAAAdAAAAABAE
+* https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Portland%2C_Oregon.svg&psig=AOvVaw11lPgx1I4xb3u8466w-AJH&ust=1708015662289000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOCXoKikq4QDFQAAAAAdAAAAABAE
+* https://en.wikipedia.org/wiki/Salem,_Oregon#/media/File:Salem,_OR_Logo.png
+* https://en.wikipedia.org/wiki/Salem,_Oregon#/media/File:Flag_of_Salem,_Oregon_2022.svg
+
+## Facts Referenced
+* https://en.wikipedia.org/wiki/Eugene,_Oregon
+* https://en.wikipedia.org/wiki/Oregon
+* https://en.wikipedia.org/wiki/Portland,_Oregon
+* https://en.wikipedia.org/wiki/Portland_metropolitan_area,_Oregon#:~:text=The%202022%20population%20estimate%20is,Area%2C%20and%20other%20surrounding%20areas and https://en.wikipedia.org/wiki/Portland,_Oregon
+* https://en.wikipedia.org/wiki/Salem,_Oregon
 
 *This is licensed under the MIT license*
 
