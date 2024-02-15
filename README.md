@@ -18,7 +18,7 @@ I was not allowed to use frameworks.
 
 
 ## Description
-_This is a project I created for my B.S. in Software Engineering that mimics an MVP for the Oregon state website.  It has four static pages: the state homepage and a Portland, Salem, and Eugene homepage.  The user is presented a with a header, navbar, main content, an aside, and finally, a footer on every page.  On the Oregon state homepage, there is also a nonfunctional contact form.  I did go above and beyond the required specifications, with scaffolding for a login section, language section, FAQ, contact, and resources.  In addition, I replicated some standard webpage behaviors, such as the logo on each page functioning as a home button.    Developing this application helped me grow my understanding of HTML, CSS, Javascript, project management, and web hosting._
+_This is a project I created for my B.S. in Software Engineering that mimics an MVP for the Oregon state website.  It has four static pages: the state homepage, a Portland, Salem, and Eugene homepage.  The user is presented a with a header, navbar, main content, an aside, and finally, a footer on every page.  On the Oregon state homepage, there is also a nonfunctional contact form.  I did go above and beyond the required specifications, with scaffolding for a login section, language section, FAQ, contact, and resources.  In addition, I replicated some standard webpage behaviors, such as the logo on each page functioning as a home button.    Developing this application helped me grow my understanding of HTML, CSS, Javascript, project management, and web hosting._
 
 
 ## Setup/Installation Requirements
