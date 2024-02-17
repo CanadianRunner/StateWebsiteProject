@@ -17,22 +17,21 @@ header {
   background-color: var(--header-bg-color);
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 20px;
-  position: relative;
 }
 
 header a img {
   max-height: 150px;
   width: auto;
+  margin-right: auto;
 }
 
 h1 {
-  position: absolute;
-  width: 100%;
+  flex-grow: 1;
   text-align: center;
   margin: 0;
-  left: 0;
+  /* Removed position:absolute and left:0; */
 }
 
 nav {
