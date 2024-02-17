@@ -113,23 +113,24 @@ h3 {
   padding: 20px;
 }
 
-.Salem-Facts {
-  padding: 20px;
-}
-.grid-container {
+.Salem-Facts table {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-  gap: 10px;
-  padding: 10px;
+  grid-template-columns: repeat(3, auto);
+  margin: 20px auto;
+  border-spacing: 1;
 }
 
-.grid-item {
-  background-color: #f0f0f0;
+.Salem-Facts th,
+.Salem-Facts td {
+  border: 2px solid #e6f2f5;
+  padding: 20px;
   text-align: center;
-  padding: 20px 0;
-  font-size: 16px;
-  color: black;
+  color: var(--text-on-body-color);
+  background-color: var(--header-bg-color);
+}
+
+.Salem-Facts {
+  padding-left: 20px;
 }
 
 footer {
