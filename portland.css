@@ -15,15 +15,23 @@ body {
 header {
   background-color: var(--header-bg-color);
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   padding: 20px;
+  position: relative;
 }
 
 header a img {
   max-height: 150px;
-  margin-right: 20px;
+  width: auto;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  left: 0;
 }
 
 nav {
@@ -91,7 +99,7 @@ h3 {
   transform: translateX(-50%);
   width: 30%;
   height: auto;
-  top: 450px;
+  top: 380px;
 }
 
 .flag-spacer {
