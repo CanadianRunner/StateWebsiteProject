@@ -1,8 +1,6 @@
 # StateWebsiteProject
-This is an MVP website built to provided specifications for my college coursework.
+This MVP website was built to provide specifications for my college course D277.
 I was not allowed to use frameworks.
-
-### Project URL: http://seank-wgu.byethost18.com/?i=1
 
 # _Front End Development_
 
